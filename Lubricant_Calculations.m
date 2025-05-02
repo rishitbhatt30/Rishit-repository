@@ -6,9 +6,9 @@
 
 clc; clear; close all;
 
-% === Load Lubricant Data from Excel ===10
-filename = 'Lubricant_Viscosity_Table.xlsx'; % Change to your file name
-sheet = 1; % Assuming first sheet
+% === Load Lubricant Data from Excel ===
+filename = 'Lubricant_Viscosity_Table.xlsx'; 
+sheet = 1;
 data = readtable(filename, 'Sheet', sheet);
 
 % === Display Available Lubricants with Row Numbers ===
