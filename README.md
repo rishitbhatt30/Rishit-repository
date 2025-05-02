@@ -1,0 +1,3 @@
+**Evaluating lubrications for a gearbox design**
+
+This MATLAB code was used to determine the most appropriate lubricant choice for a given gearbox design. The code utilises an Excel table with a selection of lubricants that can be tested for a given operating temperature, which the user is promted to input. This table can be adjusted to add more values of lubricants if desired. The output is visual of the viscosity temperature curve and a decision on whether the lubricant is suitable or not. It also provides the calculated values for pressure viscosity coeeficient which can be used for further film thickness calculations.
